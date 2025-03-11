@@ -14,7 +14,10 @@ services:
       - BASE_URL=http://localhost:3000
       - DATABASE_URL=postgresql://postgres@postgres/planka
       - SECRET_KEY=notsecretkey
-
+      - DEFAULT_ADMIN_EMAIL=demo@demo.demo
+      - DEFAULT_ADMIN_PASSWORD=demo
+      - DEFAULT_ADMIN_NAME=DemoDemo
+      - DEFAULT_ADMIN_USERNAME=demo
       # - TRUST_PROXY=0
       # - TOKEN_EXPIRES_IN=365 # In days
 
